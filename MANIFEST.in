@@ -1,0 +1,2 @@
+include versioneer.py
+include utilitime/_version.py
