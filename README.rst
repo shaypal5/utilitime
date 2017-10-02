@@ -11,7 +11,7 @@ A small pure-python package for utility decorators.
 
   start_dateint = datetime_to_dateint(some_dt_obj)
   day_after_tomorrow = shift_dateint(today_int, 2)
-  dateints_to_check = dateint_range(start_dateint, day_after_tomorrow)
+  dateints_to_process = dateint_range(start_dateint, day_after_tomorrow)
 
 .. contents::
 
