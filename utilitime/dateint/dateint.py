@@ -1,4 +1,3 @@
-
 """Datetime-related utility functions."""
 
 from datetime import datetime, timedelta, date
