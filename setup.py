@@ -18,7 +18,9 @@ with open('README.rst') as f:
 INSTALL_REQUIRES = [
     'pytz', 'delorean', 'decore'
 ]
-TEST_REQUIRES = ['pytest', 'coverage', 'pytest-cov']
+TEST_REQUIRES = [
+    'pytest>=4.6', 'coverage', 'pytest-cov==2.5.1',
+]
 
 
 setup(
